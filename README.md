@@ -88,11 +88,7 @@ NEXT_PUBLIC_SITE_URL=
 - `active` - paid and ready to redeem
 - `redeemed` - someone claimed it
 - `expired` - timed out
-- `cancelled` - manually killed
-
-## Fees
-
-Service fee is configurable in admin settings. Default 10% but you can change it. SideShift takes their cut on swaps too.
+- `cancelled` - manually 
 
 ## Running Locally
 
@@ -109,15 +105,5 @@ Hit `localhost:3000`. You'll need all the env vars set up and a Supabase project
 - Recovery route was removed - admin handles stuck cards manually now
 - Email images need absolute URLs or they break
 - SideShift quotes expire fast, don't sit on them
-
-## What's Next
-
-- Physical cards with QR codes
-- More design categories
-- Mobile app
-- Webhook support instead of polling
-- Gift subscriptions
-
----
 
 Built for the hackathon. Actually works. Try it.
